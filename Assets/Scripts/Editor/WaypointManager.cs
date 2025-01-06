@@ -61,10 +61,13 @@ public class WaypointManager : EditorWindow
         {
             EditorGUILayout.Space(20);
             EditorGUILayout.LabelField("Selected Route Points", EditorStyles.boldLabel);
+            
+            EditorGUILayout.BeginScrollView(new Vector2(0, 0));
             foreach(Waypoint waypoint in WaypointEditor.SelectedRoute)
             {
                 EditorGUILayout.LabelField(waypoint.name);
             }
+            EditorGUILayout.EndScrollView();
         }
         
         DrawButtons();

@@ -41,11 +41,10 @@ namespace DefaultNamespace
                 //Handle end waypoint found
                 if (currentWaypoint == end)
                 {
-                    Debug.Log("End waypoint found");
-                    List<Waypoint> path = new List<Waypoint>();
+                    List<Waypoint> path = new();
                     
                     path.Insert(0, end);
-
+                    
                     while (currentWaypoint != start)
                     {
                         if (cameFrom.TryGetValue(currentWaypoint, out Waypoint previous))
@@ -59,7 +58,7 @@ namespace DefaultNamespace
                         
                         path.Add(currentWaypoint);
                     }
-
+                    
                     path.Reverse();
                     return path;
                 }
@@ -69,103 +68,96 @@ namespace DefaultNamespace
                 closedSet.Add(currentWaypoint);
 
                 
-                Debug.Log("Current waypoint: " + currentWaypoint.name);
-                //Handle waypoint without linked waypoints
                 
-                if (currentWaypoint.linkedWaypoints.Count == 0)
+                if (currentWaypoint.linkedWaypoints.Count == 0 && currentWaypoint.nextWaypoint != null)
                 {
-                    Debug.Log("Waypoint without linked waypoints");
-                    while (currentWaypoint.linkedWaypoints.Count == 0 && currentWaypoint != end)
-                    { 
-                        currentWaypoint = currentWaypoint.nextWaypoint;
-                        Debug.Log("Moved to next waypoint without links: " + currentWaypoint.name);
-                    }
-                    
-                    Debug.Log("Found next waypoint with links: " + currentWaypoint.name);
-                    if (!openSet.Contains(currentWaypoint))
-                    {
-                        Debug.Log("Adding waypoint");
-                        openSet.Add(currentWaypoint);
-                    }
+                    FindNextLink(currentWaypoint);
                 }
-                else //Handle waypoint with linked waypoints
+                else if (currentWaypoint.nextWaypoint != null)
                 {
-                    Debug.Log("Waypoint with linked waypoints");
-                    
-                    List<Waypoint> connections = currentWaypoint.linkedWaypoints;
-                    
-                    Debug.Log("CURRENT WAYPOINT: " + currentWaypoint.name);
-                    
-                    for (int i = 0; i < connections.Count; i++)
-                    {
-                        if (closedSet.Contains(connections[i])) continue;
-                        
-                        Debug.Log("Closed set does not contain: " + connections[i].name);
+                    CheckWaypoint(currentWaypoint, currentWaypoint.nextWaypoint);
+                    CheckLinks(currentWaypoint);
+                }
+                else
+                {
+                    CheckLinks(currentWaypoint);
+                }
+            }
+            
+            Debug.Log("Route not found.");
+            return null;
+            
+            
+            
+            
+            //local Functions
+            void CheckWaypoint(Waypoint current, Waypoint next)
+            {
+                if (closedSet.Contains(next)) return;
+                
+                float tentativeGScore = current.gScore + Vector3.Distance(current.transform.position, next.transform.position);
+                
+                if (current.gScore < tentativeGScore)
+                {
+                    next.gScore = tentativeGScore;
+                    next.hScore = Vector3.Distance(next.transform.position, end.transform.position);
+                    openSet.Add(next);
+                }
+            }
 
-                        Waypoint nextPoint = null;
-                        if (connections[i].isLink)
+            
+            void CheckLinks(Waypoint waypoint)
+            {
+              
+                List<Waypoint> linkedWaypoints = waypoint.linkedWaypoints;
+                Dictionary<Waypoint, Waypoint> endPoints = new();
+                if (linkedWaypoints.Count != 0)
+                {
+                    for (int i = 0; i < linkedWaypoints.Count; i++)
+                    {
+                        Waypoint nextLink = linkedWaypoints[i].nextWaypoint;
+
+                        bool endPointFound = false;
+                        while (!endPointFound)
                         {
-                            nextPoint = FindEndOfLink(connections[i]).nextWaypoint;
-                        }
-                        else
-                        {
-                            nextPoint = connections[i];
-                        }
-                        
-                        currentWaypoint.gScore = Vector3.Distance(currentWaypoint.transform.position, currentWaypoint.previousWaypoint.transform.position);
-                        nextPoint.gScore = Vector3.Distance(currentWaypoint.transform.position, nextPoint.transform.position);
-                        nextPoint.hScore = Vector3.Distance(nextPoint.transform.position, end.transform.position);
-                        
-                        Debug.Log("currentWaypoint Gscore : " + currentWaypoint.gScore);
-                        Debug.Log("hscore: " + nextPoint.hScore);
-                        Debug.Log("gscore: " + nextPoint.gScore);
-                        
-                        var tentativeGScore = currentWaypoint.gScore + nextPoint.gScore;
-                        Debug.Log("tentativeGScore: " + tentativeGScore);
-                        
-                        Debug.Log("nexpoint: " + nextPoint.name);
-                        
-                        if (tentativeGScore > currentWaypoint.gScore)
-                        {
-                            Debug.Log("Adding key " + nextPoint + " with value " + FindEndOfLink(connections[i]));;
-                            cameFrom.Add(nextPoint, FindEndOfLink(connections[i]));
-                            nextPoint.gScore = tentativeGScore;
-                            nextPoint.hScore = Vector3.Distance(nextPoint.transform.position, end.transform.position);
-                            
-                            if (!openSet.Contains(nextPoint))
+                            if (nextLink.nextWaypoint.isLink)
                             {
-                                openSet.Add(nextPoint);
+                                nextLink = nextLink.nextWaypoint;
+                            }
+                            else
+                            {
+                                endPoints.Add(nextLink.nextWaypoint, nextLink);
+                                endPointFound = true;
                             }
                         }
                     }
+                }
 
-                    if (currentWaypoint.nextWaypoint != null)
-                    {
-                        Debug.Log("NEED TO FIX NEXT WAYPOINT");
-                    }
+                foreach (var endpoint in endPoints)
+                {
+                    CheckWaypoint(waypoint, endpoint.Key );
+                    
+                    if (openSet.Contains(endpoint.Key))
+                        cameFrom.Add(endpoint.Key, endpoint.Value);
                     
                 }
+                
             }
-            
-            //Route not found
-            Debug.Log("Route not found.");
-            return null;
-        }
 
-        
-        
-        
-        private static Waypoint FindEndOfLink(Waypoint connection)
-        {
-            Debug.Log("Looking for end of link");
-            Debug.Log("Connection: " + connection.name);
-            while (connection.isLink)
+            
+            
+            void FindNextLink(Waypoint waypoint)
             {
-                connection = connection.nextWaypoint;
+                Waypoint nextLink = waypoint;
+                while (nextLink.linkedWaypoints.Count == 0 && nextLink != end) 
+                {
+                    if (nextLink.nextWaypoint == null) return;
+                    nextLink = nextLink.nextWaypoint;
+                }
+                
+                CheckWaypoint(waypoint, nextLink);   
             }
             
-            Debug.Log("Found end of link: " + connection.name);
-            return connection;
         }
     }
 }

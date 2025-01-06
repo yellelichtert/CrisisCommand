@@ -9,12 +9,6 @@ using Vector3 = UnityEngine.Vector3;
 [InitializeOnLoad]
 public class WaypointEditor
 {
-    public static WaypointEditor Instance;
-    
-    WaypointEditor()
-    {
-        Instance = this;
-    }
     
     public static List<Waypoint> SelectedRoute;
     
