@@ -517,8 +517,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1981672136}
   nextWaypoint: {fileID: 1650893391}
-  gScore: 3.4028235e+38
-  hScore: 47.366955
+  gScore: 0
+  hScore: 9.067169
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &15056181
@@ -674,8 +674,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 560810272}
   nextWaypoint: {fileID: 1327199076}
-  gScore: 3.4028235e+38
-  hScore: 22.25709
+  gScore: 43.409996
+  hScore: 27.398424
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &28335240
@@ -1205,8 +1205,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1558025673}
   nextWaypoint: {fileID: 1067287956}
-  gScore: 3.4028235e+38
-  hScore: 37.5327
+  gScore: 85.62286
+  hScore: 13.430953
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &50746287
@@ -1680,8 +1680,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1194493889}
   nextWaypoint: {fileID: 1198419748}
-  gScore: 3.4028235e+38
-  hScore: 33.280064
+  gScore: 72.907814
+  hScore: 0
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &74677197
@@ -4301,8 +4301,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 830397116}
   nextWaypoint: {fileID: 1995046464}
-  gScore: 3.4028235e+38
-  hScore: 15.158048
+  gScore: 0
+  hScore: 30.358885
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &205251582
@@ -4487,8 +4487,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 874276996}
   nextWaypoint: {fileID: 514758519}
-  gScore: 1.25
-  hScore: 40.441044
+  gScore: 69.47029
+  hScore: 58.73452
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &213820037
@@ -5313,8 +5313,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 926928244}
   nextWaypoint: {fileID: 1265069221}
-  gScore: 3.4028235e+38
-  hScore: 52.30107
+  gScore: 0
+  hScore: 52.71352
   linkedWaypoints: []
   isLink: 1
 --- !u!4 &249338788
@@ -6521,8 +6521,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 770185586}
   nextWaypoint: {fileID: 1108364248}
-  gScore: 3.4451387
-  hScore: 4.080002
+  gScore: 131.66438
+  hScore: 30.008865
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &331625287
@@ -6571,8 +6571,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 333708366}
   nextWaypoint: {fileID: 208194587}
-  gScore: 3.4028235e+38
-  hScore: 26.622364
+  gScore: 51.477814
+  hScore: 21.43
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &331824081
@@ -7100,8 +7100,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 819584778}
   nextWaypoint: {fileID: 0}
-  gScore: 3.4028235e+38
-  hScore: 51.143284
+  gScore: 72.9734
+  hScore: 35.805153
   linkedWaypoints:
   - {fileID: 2012426594}
   isLink: 0
@@ -9526,8 +9526,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 213820036}
   nextWaypoint: {fileID: 1217326021}
-  gScore: 7.2496047
-  hScore: 8.503836
+  gScore: 82.61866
+  hScore: 58.76782
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &514758520
@@ -10492,8 +10492,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1405564893}
   nextWaypoint: {fileID: 0}
-  gScore: 1.201004
-  hScore: 4.2619977
+  gScore: 129.42024
+  hScore: 29.15337
   linkedWaypoints:
   - {fileID: 588594989}
   - {fileID: 699795321}
@@ -10636,8 +10636,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1673040131}
   nextWaypoint: {fileID: 28335239}
-  gScore: 3.4028235e+38
-  hScore: 21.12784
+  gScore: 42.219994
+  hScore: 27.657795
   linkedWaypoints:
   - {fileID: 480383962}
   isLink: 0
@@ -11936,8 +11936,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 472164313}
   nextWaypoint: {fileID: 830397116}
-  gScore: 3.4028235e+38
-  hScore: 17.69426
+  gScore: 0
+  hScore: 26.743092
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &629521747
@@ -12410,8 +12410,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1723696963}
   nextWaypoint: {fileID: 1012248742}
-  gScore: 3.4028235e+38
-  hScore: 28.344154
+  gScore: 102.12242
+  hScore: 26.07647
   linkedWaypoints:
   - {fileID: 680007028}
   - {fileID: 1676393070}
@@ -12979,8 +12979,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 0}
   nextWaypoint: {fileID: 1021162605}
-  gScore: 7.5991373
-  hScore: 40.023003
+  gScore: 74.56942
+  hScore: 53.528435
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &697660425
@@ -14276,8 +14276,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1530172786}
   nextWaypoint: {fileID: 2128080508}
-  gScore: 3.4028235e+38
-  hScore: 14.799999
+  gScore: 149.21439
+  hScore: 23.423376
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &752314314
@@ -14627,7 +14627,7 @@ MonoBehaviour:
   previousWaypoint: {fileID: 1387594678}
   nextWaypoint: {fileID: 1730986270}
   gScore: 0
-  hScore: 30.399351
+  hScore: 18.005728
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &761278338
@@ -16739,13 +16739,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1650893391}
   nextWaypoint: {fileID: 213820036}
-  gScore: 1.2500076
-  hScore: 48.51817
+  gScore: 65.630295
+  hScore: 62.794895
   linkedWaypoints:
   - {fileID: 305137221}
-  - {fileID: 213820036}
-  - {fileID: 213820036}
-  - {fileID: 213820036}
   isLink: 0
 --- !u!4 &874276997
 Transform:
@@ -17424,8 +17421,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 618591900}
   nextWaypoint: {fileID: 150406318}
-  gScore: 3.4028235e+38
-  hScore: 54.213745
+  gScore: 81.46033
+  hScore: 0
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &904702467
@@ -17879,8 +17876,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 974688504}
   nextWaypoint: {fileID: 1744248805}
-  gScore: 3.4028235e+38
-  hScore: 25.370108
+  gScore: 46.745056
+  hScore: 30.016525
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &927511398
@@ -19117,8 +19114,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 882999589}
   nextWaypoint: {fileID: 188564130}
-  gScore: 3.4028235e+38
-  hScore: 29.612787
+  gScore: 105.85065
+  hScore: 23.523397
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &989528162
@@ -19823,8 +19820,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 667051975}
   nextWaypoint: {fileID: 819471208}
-  gScore: 3.4028235e+38
-  hScore: 27.874477
+  gScore: 103.57242
+  hScore: 24.638035
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &1012248743
@@ -19973,8 +19970,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 697660424}
   nextWaypoint: {fileID: 1449928252}
-  gScore: 8.870853
-  hScore: 35.858818
+  gScore: 10.352136
+  hScore: 0
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &1021162606
@@ -22093,8 +22090,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 244737552}
   nextWaypoint: {fileID: 618591900}
-  gScore: 3.4028235e+38
-  hScore: 53.68549
+  gScore: 78.54033
+  hScore: 38.367237
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &1087969876
@@ -23760,8 +23757,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 74677196}
   nextWaypoint: {fileID: 0}
-  gScore: 3.4028235e+38
-  hScore: 34.0967
+  gScore: 76.82782
+  hScore: 6.1885424
   linkedWaypoints:
   - {fileID: 1619808820}
   - {fileID: 1228452053}
@@ -23972,8 +23969,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 26095504}
   nextWaypoint: {fileID: 756692370}
-  gScore: 4.3766994
-  hScore: 5.3740983
+  gScore: 79.74575
+  hScore: 55.544945
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &1211835757
@@ -26043,8 +26040,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 28335239}
   nextWaypoint: {fileID: 1745668868}
-  gScore: 3.4028235e+38
-  hScore: 23.40192
+  gScore: 44.609993
+  hScore: 27.18716
   linkedWaypoints:
   - {fileID: 1075804270}
   isLink: 0
@@ -27100,8 +27097,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1633386639}
   nextWaypoint: {fileID: 330916070}
-  gScore: 3.4028235e+38
-  hScore: 6.989998
+  gScore: 118.88381
+  hScore: 32.831898
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &1396166584
@@ -27562,8 +27559,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2107178948}
   nextWaypoint: {fileID: 1002988870}
-  gScore: 2.710003
-  hScore: 9.330652
+  gScore: 18.859997
+  hScore: 38.401005
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &1412776625
@@ -28113,6 +28110,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1044013155}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1439230079
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1439230080}
+  m_Layer: 0
+  m_Name: -- OBJECT POOLS ---
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1439230080
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439230079}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 93.987236, y: 18.679922, z: -23.783232}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1440053033
 PrefabInstance:
@@ -29554,8 +29582,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1002988870}
   nextWaypoint: {fileID: 1524530010}
-  gScore: 7.4005203
-  hScore: 8.911527
+  gScore: 135.61975
+  hScore: 35.24151
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &1502140089
@@ -29878,8 +29906,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1897594956}
   nextWaypoint: {fileID: 90045570}
-  gScore: 3.4028235e+38
-  hScore: 9.595757
+  gScore: 22.270004
+  hScore: 0
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &1515529818
@@ -30178,8 +30206,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 148097377}
   nextWaypoint: {fileID: 752314313}
-  gScore: 3.4028235e+38
-  hScore: 13.500004
+  gScore: 147.91438
+  hScore: 23.52859
   linkedWaypoints:
   - {fileID: 0}
   - {fileID: 752314313}
@@ -31097,6 +31125,152 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1579102756}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1581278914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1581278919}
+  - component: {fileID: 1581278918}
+  - component: {fileID: 1581278917}
+  - component: {fileID: 1581278916}
+  - component: {fileID: 1581278915}
+  - component: {fileID: 1581278920}
+  m_Layer: 0
+  m_Name: Vehicle
+  m_TagString: Playable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1581278915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581278914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 367e2c4cbc6e4a29a8602b1271ac0735, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1581278916
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581278914}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1581278917
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581278914}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: c4190f5e2344e7c458d3823e96709b7b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1581278918
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581278914}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1581278919
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581278914}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 83.465, y: 0.957, z: -50.9}
+  m_LocalScale: {x: 1, y: 1, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1581278920
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581278914}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1587713164
 GameObject:
   m_ObjectHideFlags: 0
@@ -31924,8 +32098,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 202718790}
   nextWaypoint: {fileID: 1396166583}
-  gScore: 3.4028235e+38
-  hScore: 8.389999
+  gScore: 117.48381
+  hScore: 33.829063
   linkedWaypoints:
   - {fileID: 1782888312}
   isLink: 0
@@ -32282,8 +32456,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 763021160}
   nextWaypoint: {fileID: 443313105}
-  gScore: 3.4028235e+38
-  hScore: 21.49575
+  gScore: 110.25925
+  hScore: 19.936657
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &1644173000
@@ -32642,8 +32816,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 15056180}
   nextWaypoint: {fileID: 874276996}
-  gScore: 3.4028235e+38
-  hScore: 47.936153
+  gScore: 0
+  hScore: 8.270572
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &1650893392
@@ -33197,6 +33371,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1044013155}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1684301267
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1684301269}
+  - component: {fileID: 1684301270}
+  m_Layer: 0
+  m_Name: --- SYSTEMS ---
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1684301269
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684301267}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1684301270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684301267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36e0d3416c45b524d8919127da02ce16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPool: {fileID: 11400000, guid: 00c58295e3502e64c9771f073e5426fa, type: 2}
 --- !u!1001 &1690876834
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34304,8 +34523,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1327199076}
   nextWaypoint: {fileID: 602034861}
-  gScore: 3.4028235e+38
-  hScore: 24.561634
+  gScore: 45.82
+  hScore: 27.026463
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &1745668869
@@ -34354,8 +34573,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 375949590}
   nextWaypoint: {fileID: 0}
-  gScore: 1.4899998
-  hScore: 44.069427
+  gScore: 76.859055
+  hScore: 53.399998
   linkedWaypoints:
   - {fileID: 209764681}
   - {fileID: 1601623979}
@@ -35412,8 +35631,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1449928252}
   nextWaypoint: {fileID: 1124784891}
-  gScore: 3.4028235e+38
-  hScore: 42.321945
+  gScore: 19.682125
+  hScore: 0
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &1818036047
@@ -35722,8 +35941,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 852860171}
   nextWaypoint: {fileID: 2004012884}
-  gScore: 3.4028235e+38
-  hScore: 44.977398
+  gScore: 0
+  hScore: 15.76046
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &1847609514
@@ -37474,8 +37693,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 2089903710}
   nextWaypoint: {fileID: 1959777547}
-  gScore: 3.4028235e+38
-  hScore: 38.51456
+  gScore: 82.02755
+  hScore: 11.305075
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &1948537785
@@ -38343,8 +38562,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 373486652}
   nextWaypoint: {fileID: 852860171}
-  gScore: 3.4028235e+38
-  hScore: 44.21231
+  gScore: 0
+  hScore: 18.764244
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &1999353308
@@ -39506,8 +39725,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 0}
   nextWaypoint: {fileID: 1176714886}
-  gScore: 8.200005
-  hScore: 2.3499985
+  gScore: 24.349998
+  hScore: 36.331745
   linkedWaypoints: []
   isLink: 0
 --- !u!4 &2060068351
@@ -40138,8 +40357,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousWaypoint: {fileID: 1648014250}
   nextWaypoint: {fileID: 1412776624}
-  gScore: 1.4000015
-  hScore: 4.317405
+  gScore: 17.549995
+  hScore: 37.59305
   linkedWaypoints:
   - {fileID: 2045980041}
   isLink: 0
@@ -40800,3 +41019,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 963194228}
   - {fileID: 207112747}
+  - {fileID: 1684301269}
+  - {fileID: 1581278919}
+  - {fileID: 1439230080}

@@ -1,10 +1,6 @@
-using System.Collections;
 using System.Collections.Generic;
-using System.Numerics;
-using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
-using Vector3 = UnityEngine.Vector3;
 
 [InitializeOnLoad]
 public class WaypointEditor

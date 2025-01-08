@@ -42,7 +42,6 @@ namespace Utils
 
             if (_allowExpand)
             {
-                GameObject obj = AddObjectToPool();
                 return AddObjectToPool();
             }
             
@@ -50,7 +49,7 @@ namespace Utils
         }
         
         
-        public GameObject returnObject(GameObject obj)
+        public GameObject ReturnObject(GameObject obj)
         {
             obj.SetActive(false);
             
@@ -58,6 +57,8 @@ namespace Utils
             {
                 obj.transform.SetParent(_parent.transform);
             }
+            
+            obj.transform.parent = _parent.transform;
             
             return obj;
         }

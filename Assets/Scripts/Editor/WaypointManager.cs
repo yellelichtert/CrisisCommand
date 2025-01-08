@@ -1,10 +1,7 @@
-using System;
-using DefaultNamespace;
 using JetBrains.Annotations;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
-using Input = UnityEngine.Windows.Input;
 
 public class WaypointManager : EditorWindow
 {
